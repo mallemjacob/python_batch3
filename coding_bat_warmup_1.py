@@ -1,0 +1,1 @@
+(parrot talking and hour < 7 or hour > 20) --> trouble --> True
