@@ -57,21 +57,21 @@
 #     print("Index " + str(i) + " Value: " + spam[i])
 
 # String concatnation
-print('hi ' + 'there') # 'hi there'
-# List concatenation
-print([1,2] + [3,4]) # [1,2,3,4]
+# print('hi ' + 'there') # 'hi there'
+# # List concatenation
+# print([1,2] + [3,4]) # [1,2,3,4]
 
-spam = []
+# spam = []
 
-user_input = input() #cat
-spam = spam + [user_input]
-# ['dog'] + ['cat'] # ['dog', 'cat']
+# user_input = input() #cat
+# spam = spam + [user_input]
+# # ['dog'] + ['cat'] # ['dog', 'cat']
 
-spam = spam + ['keyboard']
+# spam = spam + ['keyboard']
 
-spam = ['monitor'] + spam
+# spam = ['monitor'] + spam
 
-print(spam)
+# print(spam)
 
 
 # create a new empty list
@@ -81,3 +81,17 @@ print(spam)
 # else concatenate the user input to the empty list.
 # finally print the list items with for loop
 
+
+users = []
+while True:
+    print('Enter a name:')
+    user = input()
+    if user == 'exit':
+        break
+    else:
+        users = users + [user]
+
+
+print(users)
+for user in users:
+    print(user)
