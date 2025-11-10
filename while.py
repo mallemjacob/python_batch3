@@ -77,12 +77,12 @@
 
 # using for-loop in a while loop
 # while True:
-#     for i in range(10): # 0 1 2 3 4 5 6 7 8 9
-#         if i == 4:
-#             break
-#         else:
-#             print(i)
-#     break            
+    # for i in range(10): # 0 1 2 3 4 5 6 7 8 9
+    #     if i == 4:
+    #         break
+    #     else:
+    #         print(i)
+    # break            
 
 
 # using while and for loops in a if statement.
