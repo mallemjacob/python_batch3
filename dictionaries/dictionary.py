@@ -81,5 +81,18 @@ while True:
             #books['stranger'] = 92
 
 print('The book database contains: ')
-for book, pages in books.items():
-    print('Book: ' + book + ' , ' + 'Pages: ' + pages)
+for b, p in books.items():
+    print('Book: ' + b + ' , ' + 'Pages: ' + p)
+
+
+#homework
+
+#name
+#age
+#location
+#language
+#occupation
+
+#   persons = {'persons':[
+#     {'name':23},{'name':24},{'name':25}
+# ]}
