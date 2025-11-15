@@ -63,26 +63,26 @@
 # if it dont exists, ask the value for that key
 # Add that key and value to the dictionary.
 
-books = {}
+# books = {}
 
-print('Books database: ')
+# print('Books database: ')
 
-while True:
-    title = input('Enter a book title: ') #stranger
-    if title == '':
-        break
-    else:
-        if title in books:
-            print(books[title])
-        else:            
-            print('The book doesnt exists')
-            pages = input('Enter number of pages: ') #92
-            books[title] = pages
-            #books['stranger'] = 92
+# while True:
+#     title = input('Enter a book title: ') #stranger
+#     if title == '':
+#         break
+#     else:
+#         if title in books:
+#             print(books[title])
+#         else:            
+#             print('The book doesnt exists')
+#             pages = input('Enter number of pages: ') #92
+#             books[title] = pages
+#             #books['stranger'] = 92
 
-print('The book database contains: ')
-for b, p in books.items():
-    print('Book: ' + b + ' , ' + 'Pages: ' + p)
+# print('The book database contains: ')
+# for b, p in books.items():
+#     print('Book: ' + b + ' , ' + 'Pages: ' + p)
 
 
 #homework
@@ -96,3 +96,68 @@ for b, p in books.items():
 #   persons = {'persons':[
 #     {'name':23},{'name':24},{'name':25}
 # ]}
+
+#dictionary methods
+#get()
+
+
+dictt = {'num1':1,'num2':2,'num3':3}
+
+print(dictt.get('num4', 4))
+
+# print(dictt)
+
+print(dictt.setdefault('num4',2))
+dictt['num1'] = 10
+dictt.update({'num3':20})
+print(dictt)
+
+#pop
+
+dictt.pop('num1')
+print(dictt)
+
+dictt.popitem()
+print(dictt)
+
+del dictt['num2']
+print(dictt)
+
+dictt.clear()
+print(dictt)
+
+import pprint
+
+spam = 'Values are accessed using their corresponding keys within square brackets'
+
+count = {}
+
+for i in spam:
+    count.setdefault(i, 0) # 'V':1
+    count[i] = count[i] + 1
+
+print(count)
+pprint.pprint(count)
+
+students = {
+    "student1": {
+        "name": "Alice",
+        "age": 20,
+        "major": "Computer Science",
+        "grades": {
+            "math": 95,
+            "physics": 88,
+            "programming": 92
+        }
+    },
+    "student2": {
+        "name": "Bob",
+        "age": 21,
+        "major": "Engineering",
+        "grades": {
+            "math": 80,
+            "physics": 90,
+            "chemistry": 85
+        }
+    }
+}
