@@ -19,6 +19,7 @@ class MobilePhones:
 
 samsung_galaxy_m17 = MobilePhones(6.7, 50, 'Exynos 1330', 5000)
 
+
 print(samsung_galaxy_m17.display_size)
 print(samsung_galaxy_m17.camera_pixels)
 print(samsung_galaxy_m17.chipset_model)
@@ -36,3 +37,5 @@ print(apple_iPhone_17.battery_capacity)
 
 apple_iPhone_17.calling()
 apple_iPhone_17.taking_photos()
+
+
