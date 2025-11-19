@@ -57,6 +57,7 @@ class ElectricCar(Car):
     def __init__(self, make, model, year):
         super().__init__(make, model, year)
         self.batery_details = Battery()
+        # self.engine_details = Engine()
 
     def get_descriptive_name(self):
         print(f"{self.maker}, {self.model_name}, {self.year_of_manufacutre}")
@@ -72,3 +73,11 @@ print(ec1.batery_details.battery_size)
 print(ec1.batery_details.lifespan_Cycle_life())
 
 print(ec2.batery_details.battery_size)
+
+# Composition
+# Create a Engine class and use its instance as attribute in the ElectricCar class attribute.
+
+# Inheritance
+# Create a ElectricSportCar class from ElectricCar class.
+# Add its own attributes and methods.
+# Create instances from it.
