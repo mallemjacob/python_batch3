@@ -8,3 +8,16 @@
 #   1.Modifying an Attribute’s Value Directly
 #   2.Modifying an Attribute’s Value Through a Method, update_odometer()
 # Reject the change if milage is less than odometer_reading.
+
+# Inheritance
+# Model an ElectricCar based on Car class.
+# Defining Attributes and Methods for the Child Class.
+# Attributes: battery_size
+# Methods: describe_battery()
+# Overriding Methods from the Parent Class, fill_gas_tank()
+
+# Composition: Instances as Attributes
+# Move battery details into new class
+# Set default parameter, battery_size
+# Add new attribute self.battery in ElectricCar class and create a new Battery instance.
+# Add get_range() method to Battery class that reports the range of the car based on the battery size.
