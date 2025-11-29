@@ -134,7 +134,7 @@ age = 25
 aadhar_card = ''
 rationcard = '454958498s'
 
-if student_location == 'AP' and age < 35 and aadhar_card or rationcard:
+if (student_location == 'AP') and (age < 35) and (aadhar_card or rationcard):
     msg1 = 'Welcome to DDU-DKY' 
     msg2 = 'Classes start from Monday' 
     print(msg1)
