@@ -41,29 +41,29 @@
 #         print(count)
 #         count = count + 1
 
-# password_attempts = 0
-# while True:
-#     print('Enter your name:')
-#     name = input() #exit
-#     if name == 'joe':
-#         while True:
-#             if password_attempts < 5:
-#                 print('Enter your password')
-#                 password = input() #ll
-#                 if password == 'fish':
-#                     print('Welcome to your account')
-#                     break
-#                 else:
-#                     password_attempts = password_attempts + 1
-#                     continue
-#             else:
-#                 print('Too many attempts. Try again in 24 hours.')
-#                 break
-#     elif name == 'exit':
-#         break
-#     else:
-#         print('Not joe')
-#     break
+password_attempts = 0
+while True:
+    print('Enter your name:')
+    name = input() #exit
+    if name == 'joe':
+        while True:
+            if password_attempts < 5:
+                print('Enter your password')
+                password = input() #ll
+                if password == 'fish':
+                    print('Welcome to your account')
+                    break
+                else:
+                    password_attempts = password_attempts + 1
+                    continue
+            else:
+                print('Too many attempts. Try again in 24 hours.')
+                break
+    elif name == 'exit':
+        break
+    else:
+        print('Not joe')
+    break
 
 # count = 1 #2
 # while count <= 10:
