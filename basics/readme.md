@@ -95,7 +95,6 @@ Variables Rules
 2. Should not start with a number
 3. Should not use special characters except underscore
 
-
 # Conditions
 if you get marks above 90 percent, i will buy you a new laptop or else
 i will punish you.
