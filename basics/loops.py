@@ -11,6 +11,7 @@
 
 # while i_am_at_work:
 #     print('Do you home work')
+#     i_am_at_work = False
     
 
 # count = 1
@@ -19,15 +20,15 @@
 
 # count = 1 #2
 # while count <= 10:
-#     print(count)
-#     count = count + 1
+#     print(count) #1, 2.... 10
+#     count = count + 1 # 2 + 1
 
-#break
+# break
 # while count <= 10:
 #     if count == 5:
 #         break
 #     else:
-#         print(count)
+#         print(count) #1
 #         count = count + 1
 
 # print('end')
@@ -41,29 +42,29 @@
 #         print(count)
 #         count = count + 1
 
-password_attempts = 0
-while True:
-    print('Enter your name:')
-    name = input() #exit
-    if name == 'joe':
-        while True:
-            if password_attempts < 5:
-                print('Enter your password')
-                password = input() #ll
-                if password == 'fish':
-                    print('Welcome to your account')
-                    break
-                else:
-                    password_attempts = password_attempts + 1
-                    continue
-            else:
-                print('Too many attempts. Try again in 24 hours.')
-                break
-    elif name == 'exit':
-        break
-    else:
-        print('Not joe')
-    break
+# password_attempts = 0
+# while True:
+#     print('Enter your name:')
+#     name = input() #exit
+#     if name == 'joe':
+#         while True:
+#             if password_attempts < 5:
+#                 print('Enter your password')
+#                 password = input() #ll
+#                 if password == 'fish':
+#                     print('Welcome to your account')
+#                     break
+#                 else:
+#                     password_attempts = password_attempts + 1
+#                     continue
+#             else:
+#                 print('Too many attempts. Try again in 24 hours.')
+#                 break
+#     elif name == 'exit':
+#         break
+#     else:
+#         print('Not joe')
+#     break
 
 # count = 1 #2
 # while count <= 10:
@@ -74,13 +75,15 @@ while True:
 # for loop = specific number of times
 # for how many guests
 
-# for num in range(1,11): #1,1,2...10
-#     if num == 7:
-#           continue
-#     else:
-#          print(num)      
+# for i in range(10)
 
-# print('the end of for loop')
+for num in range(10): #1,1,2...10
+    if num == 7:
+          continue
+    else:
+         print(num)      
+
+print('the end of for loop')
 
 # Expression = evaluates to a single value
 # 2 + 2 #4
