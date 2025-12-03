@@ -36,7 +36,6 @@ for i in range(10): #0,1
     if name == 'joe': #joe == joe,  exit
         print('hi joe')
 
-
         # ********************************
         #inner loop
         for i in range(5): # 0,1,2,3,4
@@ -49,11 +48,9 @@ for i in range(10): #0,1
                 print('wrong password! try again!')
         # ********************************
 
-
     elif name == 'exit':
         break                                
     else:
-        print('not joe. try again')
-        
+        print('not joe. try again')     
 
 print('the end')
