@@ -70,9 +70,11 @@
 def hello(i): #function definition, i = parameter
     j = i + 1 # function body
     return j # returns to the calling function
-    
 
 print(hello(0)) # function calling, 0 = argument
-print(hello(9))
+# print(hello(9))
+
+# If you don't explicitly return a value from the function, it returns None.
+
 
     
