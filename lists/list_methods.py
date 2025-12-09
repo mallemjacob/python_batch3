@@ -75,6 +75,38 @@
 # print(spam)
 
 # reverse
+# spam = ['cat', 'dog', 'moose']
+# spam.reverse()
+# print(spam)
+
+#append
 spam = ['cat', 'dog', 'moose']
-spam.reverse()
+# spam.append('elephant')
+# print(spam)
+
+#clear
+# spam.clear()
+# print(spam)
+
+# copy
+# spam = ['cat', 'dog', 'moose']
+# bacon = spam.copy()
+# bacon[0] = 'pig'
+
+# print(spam)
+# print(bacon)
+
+#count
+# spam = ['cat', 'dog', 'moose','dog', 'dog']
+# print(spam.count('moose'))
+
+#extend
+spam = ['cat', 'dog', 'moose']
+spam.extend('123')
+spam.extend(['a','b'])
 print(spam)
+spam.remove('a')
+print(spam)
+removed_value = spam.pop(0)
+print(spam)
+print(removed_value)
